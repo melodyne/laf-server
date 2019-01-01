@@ -1,0 +1,309 @@
+* { margin: 0; padding: 0; word-wrap: break-word; }
+body{
+   margin:0px;
+	padding:0px;
+	font-family:"Microsoft YaHei",Tahoma, Verdana;
+	background: #fff;
+	font-size:9pt
+}
+
+.z{ float:left}  .y{ float:right}
+
+input,textarea,select{
+-webkit-appearance:none; border-radius:0px;
+}
+/*--- 字体链接样式定义 ---*/
+a{margin:0px; padding:0px; border:0px;}
+a:link,a:visited{text-decoration:none;}
+a:hover{text-decoration: none;}
+
+div,img,dl,dt,dd,ul,li{border:0; list-style:none; margin:0; padding:0;}
+h1,h2,h3,h4,h5,h6{font-size:12px; margin:0; padding:0;}
+em{ font-style: normal; }
+a img{ text-decoration: none; border: 0px none;}
+table { empty-cells: show; border-collapse: collapse; }
+
+/*--- 清除浮动 ---*/
+.cl:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; } .cl { zoom: 1; }
+/*--- 开始定义 ---*/
+.MindexTop{ display:block; height:180px; text-align:center; background:#FF6317; overflow:hidden}
+.MindexTop ul{ padding-top:30px;}
+.MindexTop ul img{ height:152px;}
+.Mindex ul.countdown {
+	list-style: none;
+	padding: 0 0 10px 0;
+	display: block;
+	text-align: center;
+	background:#fff;
+	border-bottom:1px #F1F1F1 solid;
+}
+.Mindex ul.countdown li {
+	display: inline-block;
+}
+.Mindex ul.countdown li span {
+	font-size: 20px;
+	font-weight: 300;
+	color:#333;
+}
+.Mindex ul.countdown li.seperator {
+	font-size: 20px;
+	vertical-align: top;
+	color:#333;
+}
+.Mindex ul.countdown li p {
+	color: #9A9A9A;
+	font-size: 14px;
+}
+
+
+.MindexList{ display:block; background:#fff; color:#333}
+.MindexList h2{ border-bottom:1px #F0F0F0 solid; background:#FFFFEC; text-align: center; padding:8px 0; text-indent:0.8em; font-weight:400}
+.MindexList ul{ padding:0 10px;}
+.MindexList ul li{ width:100%; float:left; border-bottom:1px #F0F0F0 solid; display:block; padding:8px 0; ; font-size:8pt}
+.MindexList ul li strong{ float:left;}
+.MindexList ul li strong img{ width:15px;}
+.MindexList ul li span{ float:right; color:#9A9A9A}
+
+
+.footer{ display:block; text-align:center; padding:10px 0 55px 0; font-size:7pt; color:#D9D9D9}
+.Mindex h2{ width:90%; display:block; background:#FAFAFA; color:#333; border-bottom:1px #e3e3e3 dashed; text-align:left; padding:4%}
+
+.Mindex h4{display:block; background:#fff; color:#CC0000; padding:10px 0 0 0; text-align:center}
+.Mindex dl{ padding:10px 15px 8px 15px;}
+.Mindex dl dt{ float:left; width:76px; margin-right:10px;}
+.Mindex dl dt img{ width:68px; height:68px; border:1px #F0F0F0 solid; background:#fff; padding:3px; border-radius:50%;}
+.Mindex dl dd{ float:left; padding-top:15px;}
+.Mindex dl dd strong{ width:100%; display:block; font-weight:400}
+.Mindex dl dd span{ width:100%; display:block; color:#999; padding-top:10px;}
+.Mindex dl dd span a{ border:1px #e3e3e3 solid; display:block; float:left; padding:2px 6px; border-radius:3px; color:#999; font-size:7pt; margin-right:8px; background:#FAFAFA}
+
+.BmTop{ display:block; width:100%; background:#FF6317}
+.BmTop ul{ padding:8px 10px}
+.BmTop ul strong{ font-weight:400;}
+.BmTop ul a{ color:#FFF; width:50px; text-align:center; background:#fff; color:#9A9A9A; border-radius:50px; padding:2px 0; display:block; font-size:7pt}
+
+.BmTops{ display:block; width:100%; background:#fff; border-bottom: 1px #E3E3E3 solid}
+.BmTops ul{ }
+.BmTops ul strong{ font-weight:400;}
+.BmTops ul a{ width:60px; text-align:center; background:#fff; color:#9A9A9A; padding:7px; display:block; font-size:8pt}
+
+.BmIndex{ display:block; width:100%; background: #FAFAFA}
+.BmIndex ul{ padding:5% 5% 0 5%}
+.BmIndex ol{ width:90%; display:block; text-align:center; padding:5% 5% 0 5%}
+.BmIndex ol input{ border:1px #60D295 solid; border-radius:50px; background:#60D295; color:#FFF;}
+
+.Content{}
+.Content h2{border-bottom:1px #e3e3e3 solid; padding:8px 0; text-indent:1em}
+.Content ul{ padding:10px; color:#686868}
+.Content ul img{ width:auto; height:auto; max-width:100%; max-height:100%;}
+.Content ol{ border-top:1px #e3e3e3 solid;}
+.Content ol li{ border-bottom:1px #e3e3e3 solid; padding:5px 0; text-indent:1em; font-size:8pt}
+.Content ol li strong{ color:#333}
+.Content ol li span,.Content ol li span a{ color:#9A9A9A}
+.baoMing li #btn_qx{ border:1px #e3e3e3 solid; border-radius:50px; background:#fff; color:#9A9A9A; padding:5px 70px;}
+
+#tixing{ font-size:8pt;}
+#tixing ul{ background:#FFEBB1; color:#CC0000;}
+#tixing ul li{ padding:8px 10px;}
+
+/*手机端新闻定义*/
+.MindexNew{ display:block; background:#fff; color:#333; margin-top:5px;}
+.MindexNew h2{ border-bottom:1px #e3e3e3 solid; border-top:1px #e3e3e3 solid; background:#F5F5F5; text-align:left; padding:8px 0; text-indent:0.8em}
+.MindexNew ul{ padding:0 10px;}
+.MindexNew ul li{ width:100%; float:left; border-bottom:1px #F4F4F4 solid; display:block; padding:8px 0; ; font-size:8pt}
+.MindexNew ul li strong{ float:left}
+.MindexNew ul li strong a{ font-weight:400; color:#369;}
+.MindexNew ul li span{ float:right; color:#9A9A9A}
+
+.Q_BmTop{ display:block; width:100%; background:#1C9BF9; height:auto; overflow:hidden}
+.Q_BmTop ul{ padding:5px 0}
+.Q_BmTop ul img{ width:100%}
+
+.q_Index ul{}
+.q_Index ul li{}
+.q_Index ul li input{display:block; border:1px #EEE solid; padding:10px 0; text-indent:1em; width:100%; border-top:none; border-left:none; border-right:none}
+.q_Index ol{ width:100%; display:block; text-align:center;}
+.q_Index ol input{ border:1px #e3e3e3 solid; border-radius:50px; background:#F5F5F5; color:#9A9A9A; padding:5px 50px;}
+.q_Index dl{ padding:10px;  border:1px #EEE solid; border-top:none;; border-left:none; border-right:none; margin-bottom:10px}
+.q_Index dl textarea{display:block; height:50px; width:100%; border:none;}
+
+
+.add_Index ul{}
+.add_Index ul li{ width:100%; position:relative; overflow:hidden}
+.add_Index ul li input{display:block; border:1px #EEE solid; padding:10px 0; text-indent:1em; width:100%; border-top:none; border-left:none; border-right:none}
+.add_Index ol{ width:100%; display:block; text-align:center;}
+.add_Index ol input{ border:1px #e3e3e3 solid; border-radius:50px; background:#F5F5F5; color:#9A9A9A; padding:5px 50px;}
+.add_Index dl{ padding:10px;  border:1px #EEE solid; border-top:none;; border-left:none; border-right:none; margin-bottom:10px}
+.add_Index dl textarea{display:block; height:100px; width:100%; border:none;}
+.add_Index select{display:block; border:1px #EEE solid; padding:10px 0; width:100%; border-top:none; border-left:none; border-right:none; text-indent:1em;}
+.add_Index ul li strong{ position: absolute; right:10px; top:8px; color:#999}
+.add_Index ul li span{ }
+
+.addBtn { background:#1C9BF9; margin-top:-5px;}
+.addBtn ul{ padding:0 10px 15px 10px;}
+.addBtn ul a{ display:block; padding:5px 10px; border:1px #EEE dashed; text-align:center; color:#fff; border-radius:50px;}
+.UserList { }
+.UserList h2{border-bottom:1px #e3e3e3 solid; text-indent:0.8em; padding:10px 0 8px 0; font-weight:400; }
+.UserList ul{ padding:0 10px}
+.UserList ul li{width:100%; float:left; border-bottom:1px #F4F4F4 solid; display:block; padding:8px 0; ; font-size:8pt}
+.UserList ul li strong{ float:left}
+.UserList ul li strong a{ font-weight:400; color:#369;}
+.UserList ul li span{ float:right; color:#9A9A9A}
+
+.ViewIndex{}
+.ViewIndex h2{ border-bottom:1px #e3e3e3 solid; padding:8px 0; text-indent:1em}
+.ViewIndex ul{ padding:0 10px;}
+.ViewIndex ul li{ border-bottom:1px #EEE solid; padding:8px 0; }
+.ViewIndex ul li strong{ color:#666}
+.ViewIndex ul li a{ color:#333333}
+.ViewIndex dl{padding:10px; border-bottom:1px #e3e3e3 solid; color:#666}
+.TestView img{ width:70%;}
+
+.testAdd{ text-align:center; }
+.testAdd ul{ padding:20% 10px 0 10px;}
+.testAdd ul input{ width:90%; padding:8px 0 9px 0; text-align:center; border:1px #e3e3e3 solid; background:#F7F7F7}
+.testAdd ol{ padding:5px 10px 15px 10px;}
+.testAdd ol input{ border: none; width:100%; border-radius:50px; padding:8px 0; color:#fff; background:#FF6600}
+.testAdd dl{ font-size:8pt; width:100%; padding:5px 0 0 0; color:#666666;}
+.testAdd dl strong{ font-weight:400; color:#C00003; padding:0 3px; font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif}
+
+.TestView{ text-align:center; padding-top:2%;}
+.TestView h2{ }
+.TestView ul{ width:100%; padding:10px 0; font-size:16px; }
+.TestView ul p span{ }
+.TestView ul strong{ color:#FF3300}
+.TestView dl{ width:100%; color:#4B4B4B; padding-bottom:10px;}
+.TestViewAd{ width:100%; border-top:1px #F4F4F4 solid; padding-bottom:20%; text-align:center}
+.TestViewAd dl{ padding:10px;}
+.TestViewAd dl a{ color:#369;}
+
+#mess_share{ margin:0 10px}
+#share_1{float:left;width:46%;}
+#share_2{float:right;width:46%;}
+#mess_share img{width:22px;height:22px;}
+#cover{display:none;position:absolute;left:0;top:0;z-index:18888;background-color:#000000;opacity:0.7;}
+#guide{display:none;position:absolute;right:18px;top:5px;z-index:19999;}
+#guide img{width:200px;}
+
+ul.Ulist{}
+ul.Ulist li{ border-top:1px #F0f0f0 solid;border-bottom:1px #F0f0f0 solid; width:100%; text-indent:1em; padding:7px 0}
+ul.Ulist li strong{ color:#999}
+.indexList{ width:100%; display:block;}
+.indexList h2{ border-bottom:1px #F0F0F0 solid; padding:10px 0; text-align:center}
+.indexList ul{ width:100%; display:block; }
+.indexList ul a{ border-bottom:1px #F0F0F0 solid; padding:10px 4%; background: url(../images/j.jpg) no-repeat right; background-size:10%; width:92%; float:left;}
+.indexList ul a strong{ font-weight:400; color:#369; font-size:9pt; background: url(../images/ico.png) no-repeat 0px 1px; background-size:6%; padding-left:14px;}
+.indexList ul a p{ font-size:7pt; color:#999; }
+
+.Mes{ text-align:center; color:#F33}
+
+/* 内容页面右下浮动 */
+.navMenu{ width:100%; position: fixed; bottom:0px; left:0px; z-index:99998; overflow:hidden;}
+.navMenu ul{ width:100%;  background:#000; height:43px; opacity:0.4;}
+.navMenu dl{ position:absolute; bottom:7px; left:3%; width:94%; margin:0px auto; z-index:99999; text-align:center; overflow:hidden}
+.navMenu dl strong a{float:left; width:48%; height:28px; line-height:25px }
+.navMenu dl span a{ float:right; width:48%; height:28px; line-height:25px}
+.navMenu dl em a{float:left; color:#fff; background:#33CC66; padding:6px 0 6px 0; width:100%; border-radius:3px; font-weight:400}
+
+.navNo{ width:100%; height:100%; position: fixed; top:0px; left:0px; z-index:99999; overflow:hidden;}
+.navNo ul{ width:100%; height:100%; background:#000; opacity:0.8;}
+.navNo dl{ position:absolute; bottom:40%; left:20%; width:60%; margin:0px auto; z-index:99999; text-align:center; overflow:hidden}
+.navNo dl a{color:#fff; background:#33CC66; padding:8px 0 8px 0; width:100%; border-radius:3px; display:block}
+.navNo ol{ position:absolute; top:6%; left:5%; width:90%; margin:0px auto; z-index:99999; text-align:center; overflow:hidden}
+.navNo ol img{ width:90%;}
+
+.viewContnt{ width:100%; border-bottom:1px #F5F5F5 solid; padding-bottom: 15px;}
+.viewContnt ul{ padding:15px;}
+.viewContnt dl{ padding:0 15px;}
+.viewContnt dl a#btn_qa{ width:100%; padding:8px 0; background:url(../images/ico_mobile.jpg) no-repeat 35px 9px; background-size:15px 15px; border:1px #f0f0f0 solid; float:left; text-align:center; color:#333; border-radius:50px; }
+
+/*相关活动推荐*/
+.MiAbout{ width: 100%; height: 32px; border-bottom: 1px #E9E9E9 solid;position: relative; overflow:hidden;}
+.MiAbout dl{width: 90%; padding:2% 5%; height: 32px; position: absolute; left:0; top:0; z-index: 999}
+.MiAbout ol{width: 90%; padding:2% 5%; height: 32px; position: absolute; left:0; top:0; z-index: 998}
+.MiAbout dl dd{ float: left; width: 100%; overflow: hidden}
+.MiAbout dl dd strong{ float: left; width: 100%; height: 20px; overflow:hidden; font-weight: 400; color:#369; font-size: 8pt}
+.className{
+-webkit-animation: twinkling 0.3s infinite ease-in-out; background: #F0FBF7; border-bottom: 1px #E9E9E9 solid;
+}
+.animated{
+-webkit-animation-duration: 1s;
+animation-duration: 1s;
+-webkit-animation-fill-mode: both;
+animation-fill-mode: both
+}
+@-webkit-keyframes twinkling{
+  0%{opacity: 0.1;}
+  100%{opacity: 1;}
+}
+@keyframes twinkling{
+  0%{opacity: 0.1;}
+  100%{opacity: 1;}
+}
+/*内容页面讲师定义*/
+.UserTop{ width: 100%; height: auto; border-bottom: 1px #E3E3E3 dashed; background: #FAFAFA}
+.UserTop dl{ border-top:1px #F0F0F0 solid; padding:10px 15px 8px 15px;}
+.UserTop dl dt{ float:left; width:76px; margin-right:10px; overflow:hidden;}
+.UserTop dl dt img{ width:68px; height:68px; border:1px #F0F0F0 solid; background:#fff; padding:3px; border-radius:50%; overflow:hidden;}
+.UserTop dl dd{ width: 130px; float:left; padding-top:15px;}
+.UserTop dl dd strong{ width:100%; display:block;  padding-top:5px;}
+.UserTop dl dd span{ width:100%; display:block; color:#999; font-size: 7pt;  padding-top:5px;}
+/*有无基础*/
+.MindexList_bl{ display:block; background:#fff; color:#333; border-bottom:1px #F0F0F0 solid; padding:10px 10px 0 10px;}
+.MindexList_bl h5{ font-weight:400; margin-bottom:5px; font-size:8pt}
+.MindexList_bl_1{ height:6px; background:#FF681F;}
+.MindexList_bl_2{ height:6px; background:#3A89C9}
+.MindexList_bl h5 em{ color:#931416; font-size:8pt; font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif}
+.MindexList_bl .wp_bl{ margin-bottom:10px; background:#E9E9E9}
+/*选项卡*/
+.layui-tab-brief{ width: 100%; overflow: hidden}
+.layui-tab-title{background:url(../images/mobile_line.png) center repeat-y; height:35px; padding:0; margin:0}
+.layui-tab-title li{ width: 50%; font-size:12px; line-height:30px; height:35px; padding:0; margin:0 }
+.layui-tab-title .layui-this:after{ height:36px;}
+.layui-tab-title li.layui-this{ font-weight:bold}
+.layui-tab{margin:0}
+.layui-tab-content{padding: 0}
+.layui-show h3{ width:100%; display:block; background:#fafafa; color:#333; font-weight:400; border-bottom:1px #F0F0F0 solid; padding: 8px 0}
+.layui-show h3 ul li{ float:left; text-align:center; width:30%}
+.layui-show h3 ul li p.s{ font-family:Verdana, sans-serif}
+.layui-show h3 ul li p.x{ color:#9A9A9A; font-size:7pt}
+.layui-tab-brief > .layui-tab-more li.layui-this::after, .layui-tab-brief > .layui-tab-title .layui-this::after{
+	border-width:medium medium 1px; 
+}
+/*报名表单*/
+.layui-ul{ width: 100%; background:#F0F0F0}
+.layui-ul ol{width: 92%; padding:0 4% 8px 4%; background:#fff; margin-bottom:8px; }
+#zhifu{ }
+#tixing{  width:100%; margin:0; }
+#tixing ul{ padding:2px 10px 3px 10px; border-radius:5px; font-size:7pt; background:#f7f7f7; color:#666}
+.layui-form-item{ margin: 0; padding:0px 0px; border-bottom: 1px #F3F3F3 solid}
+.layui-form-item .layui-form-label{ width:130px; text-align:left; padding-left:10px; font-size: 9pt;}
+.layui-form-item .layui-form-label i{ color:#FF6E00; font-style:normal; font-family:Arial}
+.layui-form-item .layui-input-block{ float: right; padding-right: 15px; margin: 0; }
+.layui-form-labels{ width: 100%; float: left; text-align: center; padding:8px 0px; border-bottom: 1px #EFEFEF solid; font-size: 12pt; background: #FAFAFA}
+
+.layui-fl-item{ border-bottom: 1px #EBEBEB solid; width:100%; height:44px; padding:10px 0}
+.layui-fl-item ul li{ width: 50%; float: left; text-align: center; }
+.layui-fl-item .layui-unselect span{ display:none}
+.layui-fl-item .layui-form-radio i{ display:none}
+
+.layui-fl-item label#boys{ background:#FF6839 url(../images/boy.png) no-repeat; background-size:100%; float:left; width:94%; height:44px; border-radius:5px; }
+.layui-fl-item label#girls{ background: #EEEEEE url(../images/girl_1.png) no-repeat; background-size:100%; float:right; width:94%; height:44px; border-radius:5px;}
+
+.layui-form-item .layui-form-onswitch i{ left: 25px;}
+.layui-form-item .layui-form-switch{  width: 35px; }
+.layui-fl-input input{ border: 0; font-size: 9pt; padding:10px 0 10px 10px;}
+.layui-fl-input ul{ position: relative}
+.layui-fl-input ul input#btn{ position: absolute; right: 0px; top: 7px; padding: 2px 12px; border: 1px #EBEBEB solid; font-size:8pt; background:#FAFAFA; border-radius:5px; color:#666}
+.layui-form-radio{ margin: 0; padding: 4px 0}
+.layui-btn-warn{ float:left; border: none; border-radius:50px; background:#FF6839; color:#fff; width:100%; padding:5px 0}
+.playBtn ul li a:link,.playBtn ul li a:visited{text-decoration:none; color:#fff}
+.playBtn ul li a:hover{text-decoration: none; color:#fff}
+.playBtn{ width:100%; position: fixed; bottom:0px; left:0px; z-index:99998; overflow:hidden;}
+.playBtn dl{ width:100%;  background:#000; height:43px; opacity:0.5;}
+.playBtn ul{ position:absolute; bottom:7px; left:3%; width:94%; margin:0px auto; z-index:99999; text-align:center; overflow:hidden}
+.playBtn ul li{ width:50%; }
+.tuijianm{ display:none}
+.Tx_Zf{ width:100%;}
+.Tx_Zf ul{ text-align:center; padding:50% 0;}
+.Tx_Zf ul i{ font-size:45px; color:#BFBFBF}

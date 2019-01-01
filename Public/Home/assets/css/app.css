@@ -1,0 +1,108 @@
+/* Write your styles */
+body{ background:#FAFAFA}
+.z{ float:left}  .y{ float:right}
+/*--- 清除浮动 ---*/
+.cl:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; } .cl { zoom: 1; }
+
+/*用户登录*/
+.am-login{ 	width:482px; margin:11% auto 0; background:#fff; padding:30px 30px 8px 30px; height:auto;
+	-webkit-transform: translate(0px, -2px);
+	-moz-transform: translate(0px, -2px);
+	-o-transform: translate(0px, -2px);
+	-ms-transform: translate(0px, -2px);
+	transform: translate(0px, -2px);
+	-webkit-box-shadow: 0 1px 2px rgba(67,72,84,0.2);
+	box-shadow: 0 1px 2px rgba(67,72,84,0.2);
+}
+.am-login h2{ width:100%; padding:0 0 10px 0; border-bottom:2px #60D295 solid; font-size:16px; font-weight:400}
+.am-login h2 span{ float:right}
+.am-login h2 span a{ color:#369}
+.am-login .am-btn{display:block; margin-top:20px;}
+/*用户注册*/
+.am-reg{ 
+	width:482px; margin:11% auto 0; background:#fff; padding:30px; height:auto;
+	-webkit-transform: translate(0px, -2px);
+	-moz-transform: translate(0px, -2px);
+	-o-transform: translate(0px, -2px);
+	-ms-transform: translate(0px, -2px);
+	transform: translate(0px, -2px);
+	-webkit-box-shadow: 0 1px 2px rgba(67,72,84,0.2);
+	box-shadow: 0 1px 2px rgba(67,72,84,0.2);
+}
+.am-reg h2{ width:100%; padding:0 0 10px 0; border-bottom:2px #60D295 solid; font-size:16px; font-weight:400}
+.am-reg h2 span{ float:right}
+.am-reg h2 span a{ color:#369}
+.am-reg .am-btn{display:block; margin-top:20px;}
+
+.am-input-group,.am-btn-group {
+ 	margin-bottom: 10px;
+}
+.am-btn-group .am-btn-primary, .am-btn-group-stacked .am-btn-primary {
+    border-color: #CACACA;
+}
+.am-btn-primary {
+    background-color: #F5F5F5;
+    border-color: #0e90d2;
+    color: #333;
+}
+.am-btn-primary.am-active, .am-btn-primary:active, .am-dropdown.am-active .am-btn-primary.am-dropdown-toggle {
+    background-color: #E9E9E9;
+    background-image: none;
+	color: #333;
+}
+.am-btn-primary.am-disabled, .am-btn-primary.am-disabled.am-active, .am-btn-primary.am-disabled:active, .am-btn-primary.am-disabled:focus, .am-btn-primary.am-disabled:hover, .am-btn-primary[disabled], .am-btn-primary.am-active[disabled], .am-btn-primary[disabled]:active, .am-btn-primary[disabled]:focus, .am-btn-primary[disabled]:hover, fieldset[disabled] .am-btn-primary, fieldset[disabled] .am-btn-primary.am-active, fieldset[disabled] .am-btn-primary:active, fieldset[disabled] .am-btn-primary:focus, fieldset[disabled] .am-btn-primary:hover {
+    background-color: #E9E9E9;
+    border-color: #CACACA;
+}
+
+.am-btn-primary:focus, .am-btn-primary:hover {
+    background-color: #EBEBEB;
+	color: #333;
+}
+.am-btn-success {
+    background-color: #60D295;
+    border-color: #60D295;
+    color: #fff;
+	width:401px;
+	padding:12px 0;
+	margin:0 auto;
+}
+.am-input-group-label {
+    height: 45px;
+    line-height: 45px;
+}
+.am-input-group .am-form-field, .am-input-group-btn > .am-btn {
+    height: 47px;
+}
+.am-footer{ width:100%; text-align:center; color:#C3C3C3; padding-top:20px; font-size:12px;}
+.am-code{ position:relative}
+#am-code_img{ position:absolute; right:4px; top:4px; z-index:9999}
+#am-code_img #btn{ border:1px #ccc dashed; background:#FAFAFA; padding:7px 15px; cursor:pointer}
+/* right */
+ul {
+    margin: 0 0 0rem;
+}
+.am-title{}
+.am-title .z{ width:80%; position:relative}
+.am-title .z i{ position:absolute; top:10px; left:15px;}
+.am-title .z input{ height:47px; border-right:none; text-indent:2em;}
+.am-title .y{ width:20%}
+#am-list{ float:left; width:100%; }
+#am-list ul{ padding:20px 20px 0 20px;}
+#am-list ul textarea{ width:100%; height:400px;}
+#am-list td a{ }
+#am-list td a.am-btn {
+    font-size:14px;
+    line-height: 1;
+    padding: 0.4em 2em;
+}
+
+.am-lx{ width:100%; display:block; border-bottom:1px #e3e3e3 solid; padding:10px 0; margin-bottom:20px;}
+.am-lx p{ padding-bottom:5px; width:100%; display:block}
+.am-lx strong{ float:left; width:49%; font-weight:400; position:relative}
+.am-lx span{ float:right; width:49%}
+
+.page {clear: both; color: #555; padding: 20px 0; text-align:center;}
+.page a, .page span{border:1px solid #CCC; margin: 0 3px; text-decoration: none; line-height: 22px; padding: 3px 12px; text-align: center; border-radius:5px;}
+.page a:hover, .page span:hover{background-color: #146AC1; color: #FFFFFF; cursor:pointer; text-decoration: none; border:1px solid #146AC1;}
+.page span.current{background-color: #146AC1; color: #FFFFFF; cursor:pointer; text-decoration: none; border:1px solid #146AC1;}

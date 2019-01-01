@@ -1,0 +1,18 @@
+/* CSS Document */
+html,body,p,h1,h2,h3,h4,h5,h6,input,form{margin:0; padding:0}
+a{ text-decoration:none; color:#000;}
+a:hover{ text-decoration:none;}
+img{vertical-align:top; border:0}
+body{font-size:14px;background:#333;font-family:微软雅黑;}
+
+.main{width:618px; margin:auto; padding-top:180px; padding-bottom:150px; }
+.login{width:618px; height:auto; background:#FFF; padding:40px 0 50px 0; color:#000; border-radius:5px;}
+.login input{ border:1px #e3e3e3 solid; font-size:12px;}
+.End {
+  width: 618px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #666;
+  font-size:12px;
+}
