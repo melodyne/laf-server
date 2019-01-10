@@ -5,7 +5,7 @@
 >关键技术：ThinkPHP3.2 ，JQuery，Angular，MySql，Restful Api
 >wap端，小程序端 （两端UI基本一致，效果图如下）：
 
-### 微信小程序 [传送门]（https://github.com/melodyne/laf-wx）  
+### 微信小程序 [传送门](https://github.com/melodyne/laf-wx)  
 
 ### 技术栈
 Thinkphp + Jquery + bootstarp + ace
