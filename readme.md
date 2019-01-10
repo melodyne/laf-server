@@ -7,6 +7,10 @@
 
 ### 微信小程序 [传送门](https://github.com/melodyne/laf-wx)  
 
+### 数据库MySql 
+>想要数据库备份文件，请给博主GitHub加星，加群并找到群主，并截图私发给我，请不要直接发群里
+>[QQ群](https://jq.qq.com/?_wv=1027&k=4945coR)
+
 ### 技术栈
 Thinkphp + Jquery + bootstarp + ace
 
