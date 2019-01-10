@@ -10,7 +10,7 @@
 ### 技术栈
 Thinkphp + Jquery + bootstarp + ace
 
-后台管理 效果图：
+效果图：
 <p><img alt="" class="has" src="https://img-blog.csdnimg.cn/20181028230729110.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L21laW1laWVlZQ==,size_27,color_FFFFFF,t_70" width="300">&nbsp;&nbsp;<img alt="" class="has" height="649" src="https://img-blog.csdnimg.cn/20181028224649654.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L21laW1laWVlZQ==,size_27,color_FFFFFF,t_70" width="300"></p>
 <p><img alt="" class="has" src="https://img-blog.csdnimg.cn/20181028225512313.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L21laW1laWVlZQ==,size_27,color_FFFFFF,t_70" width="300">&nbsp;&nbsp;<img alt="" class="has" src="https://img-blog.csdnimg.cn/20181028225553947.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L21laW1laWVlZQ==,size_27,color_FFFFFF,t_70" width="300"></p>
 
