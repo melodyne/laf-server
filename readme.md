@@ -1,9 +1,9 @@
 ## 失物招领服务端
 
->失物招领主要包括了微信小程序端，微信公众号wap端，后端管理。
+>失物招领主要包括了`小程序端`，`微信公众号h5端`，`后端`。
 >小程序，wap端主要包括失物信息发布，失物认领，短信认证，自动屏蔽广告。
 >关键技术：ThinkPHP3.2 ，JQuery，Angular，MySql，Restful Api
->wap端，小程序端 （两端UI基本一致，效果图如下）：
+>h5端，小程序端 （两端UI基本一致，效果图如下）：
 
 ### 微信小程序 [传送门](https://github.com/melodyne/laf-wx)  
 
@@ -13,6 +13,10 @@
 
 ### 技术栈
 Thinkphp + Jquery + bootstarp + ace
+
+### 部署说明
+建议php版本5.6，web服务器可选Apache，nginx
+上线发布：由于小程序需要域名要备案，并要求https协议，CA证书可以去阿里云免费领取，并有详细全面的https配置教程。
 
 效果图：
 <p><img alt="" class="has" src="https://img-blog.csdnimg.cn/20181028230729110.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L21laW1laWVlZQ==,size_27,color_FFFFFF,t_70" width="300">&nbsp;&nbsp;<img alt="" class="has" height="649" src="https://img-blog.csdnimg.cn/20181028224649654.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L21laW1laWVlZQ==,size_27,color_FFFFFF,t_70" width="300"></p>
