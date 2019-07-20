@@ -6,6 +6,7 @@
 >h5端，小程序端 （两端UI基本一致，效果图如下）：
 
 ### 微信小程序 [传送门](https://github.com/melodyne/laf-wx)  
+### 微信公众号H5 [微擎免费入口](https://s.w7.cc/module-19664.html)  
 
 ### 数据库MySql 
 >想要数据库备份文件，请给博主GitHub加星，加群并找到群主，并截图私发给我，请不要直接发群里
