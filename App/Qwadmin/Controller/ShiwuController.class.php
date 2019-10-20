@@ -5,7 +5,7 @@
 *
 **/
 
-namespace Home\Controller;
+namespace Qwadmin\Controller;
 use Think\Controller;
 
 class ShiwuController extends Controller {
