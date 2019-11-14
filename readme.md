@@ -13,7 +13,9 @@
 >[QQ群](https://jq.qq.com/?_wv=1027&k=4945coR)
 
 ### 技术栈
-Thinkphp + Jquery + bootstarp + ace
+* PHP版本：>=5.6
+* ThinkPHP 3.x
+* Jquery + bootstarp + ace
 
 ### 部署说明
 `服务器`：PHP版本建议5.6，web服务器可选Apache，Nginx。<br>
